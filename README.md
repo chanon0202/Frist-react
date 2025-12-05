@@ -1,22 +1,25 @@
 🚀 React Demo Website
 
-โปรเจกต์นี้เป็นเว็บทดลองที่สร้างด้วย React (Vite) โดยเน้นฝึกการใช้งาน React Hooks และการจัดการ State แบบพื้นฐาน
+This project is a simple demo website built with React (Vite), focusing on practicing React Hooks and basic state management.
 
-✨ ฟีเจอร์ภายในโปรเจกต์
-
+✨ Features
 🌗 Dark / Light Theme Toggle
-สามารถเปลี่ยนธีมได้ และเก็บสถานะไว้ใน LocalStorage
+
+Allows switching between light and dark themes, with the theme preference saved in LocalStorage.
 
 ➕➖ Add / Delete Items
-เพิ่มหรือเอารายการข้อมูลออกได้แบบ Real-time ด้วย useState
 
-💾 Local Storage Save
-เก็บค่าธีมและข้อมูลต่าง ๆ ที่ผู้ใช้เพิ่มไว้แม้รีเฟรชหน้าเว็บ
+Users can add or remove items in real-time using useState.
 
-⚡ React + Vite
-โหลดเร็วมากและใช้ Hot Reload
+💾 Local Storage Persistence
 
-🛠 เทคโนโลยีที่ใช้
+Theme mode and user-added data are saved in LocalStorage, so the state remains even after refreshing the page.
+
+⚡ Built with React + Vite
+
+Fast development server and Hot Module Replacement (HMR).
+
+🛠 Technologies Used
 
 React + Hooks
 
@@ -28,25 +31,13 @@ LocalStorage
 
 CSS
 
-▶️ วิธีรันโปรเจกต์
-ติดตั้ง dependencies
+▶️ How to Run the Project
+Install dependencies
 npm install
 
-รันโหมดพัฒนา
+Run in development mode
 npm run dev
-
-Build สำหรับ deploy
-npm run build
-
-📁 โครงสร้างโปรเจกต์
-src/
-├── App.jsx       # UI หลักของโปรเจกต์
-├── App.css       # สไตล์
-├── main.jsx      # จุดเริ่มต้น React
-└── components/   # คอมโพเนนต์ต่างๆถ้ามี
-public/
-index.html
 
 🌐 Deployment
 
-รองรับการนำขึ้น Vercel ได้ทันที
+This project can be deployed easily using Vercel.
